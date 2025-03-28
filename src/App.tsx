@@ -4,6 +4,7 @@ import './App.css'
 import arrow from './assets/arrow.png'
 import lynxLogo from './assets/lynx-logo.png'
 import reactLynxLogo from './assets/react-logo.png'
+import "tailwindcss/utilities.css";
 
 export function App() {
   const [alterLogo, setAlterLogo] = useState(false)
@@ -32,7 +33,7 @@ export function App() {
         </view>
         <view className='Content'>
           <image src={arrow} className='Arrow' />
-          <text className='Description'>Tap the logo and have fun!</text>
+          <text className='Description font-bold'> Power of tailwind!</text>
           <text className='Hint'>
             Edit<text style={{ fontStyle: 'italic' }}>{' src/App.tsx '}</text>
             to see updates!
