@@ -10,7 +10,7 @@ export function App() {
   const [alterLogo, setAlterLogo] = useState(false)
 
   useEffect(() => {
-    console.info('Hello, ReactLynx')
+    console.info('Hello, ReactLynx from rivine')
   }, [])
 
   const onTap = useCallback(() => {
