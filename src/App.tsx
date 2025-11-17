@@ -28,7 +28,7 @@ export function App() {
               ? <image src={reactLynxLogo} className='Logo--react' />
               : <image src={lynxLogo} className='Logo--lynx' />}
           </view>
-          <text className='Title'>React test</text>
+          <text className='Title'>React test 1</text>
           <text className='Subtitle'>on Lynx app</text>
         </view>
         <view className='Content'>
